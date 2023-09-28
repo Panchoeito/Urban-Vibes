@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {  
+    max-width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    font-size:medium;
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+}
+
+.centrado {
+    margin: 0 auto;
+    padding: 0 0.8em;
+}
+
+/*@media screen {
+    .centrado {
+        margin: 0 auto;
+        padding: 0 0.6em;
+    }
+}*/
+
+h1 {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+}
+
+/*@media screen and (min-width: 52px){}*/
+
+/*Header*/
+
+header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    box-sizing: both;
+}
+header nav {
+    display: inline;
+    box-sizing: both;
+}
+
+header nav ul {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 60%;
+    height: auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 3px;
+}
+
+header nav ul li:first-child { margin-left: 0;}
+
+header nav ul li a {  
+    border: 1px solid #ccc; 
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav .iconos {
+    height: auto;
+    display: inline;
+}
+
+.iconos_header {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.iconos_header a {
+    border: 1px solid #ccc; 
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/*banner*/
+
+#banner_inicial {
+    background-image: url(/img/dave-smith-epNphljdF84-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+#banner_inicial #texto_banner {
+    padding-top: 300px;
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#banner_inicial a {
+    height: 77px;
+    width: 274px;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #000;
+    font-size: 29px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 2em;
+}
+
+#banner_inicial a:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+
+
+
+/*Categorías*/
+.categorias h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000;
+}
+
+.categorias h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+/*Productos Destacados*/
+
+.destacados {
+    background-color: #000;
+    color: #FFF;
+}
+
+.destacados h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 500;
+    color: #FFF;
+}
+
+/*Tarjetas*/
+
+.destacados .tarjeta-content a {
+    color:#000;
+    text-decoration: none;
+    padding: .5em 1em;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 1em;
+    display: block;
+}
+
+figure {
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+.destacados .tarjeta-content h3 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: 600;
+    font-size: 2em;
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+}
+
+.tarjeta-content p {
+    font-size: 95%;
+    text-align: justify;
+}
+
+.imagen {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+
+
+/*acá empieza flexbox*/
+
+header {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    background-color: #FFF;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+#logo_inicio {
+    width: 20%;
+}
+
+header nav {
+    width: 80%;
+}
+
+.tarjeta {
+    background-color: #FFF;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 1em;
+    width: 27%;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.categorias :first-child {
+    width: 100%;
+}
+
+.destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destacados :first-child {
+    width: 100%;
+}
