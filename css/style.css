@@ -161,8 +161,6 @@ header nav .iconos {
     color: #FFF;
 }
 
-/*Tarjetas*/
-
 .destacados .tarjeta-content a {
     color:#000;
     text-decoration: none;
@@ -175,12 +173,6 @@ header nav .iconos {
     display: block;
 }
 
-figure {
-    margin: 0;
-    position: relative;
-    text-align: center;
-}
-
 .destacados .tarjeta-content h3 {
     margin-top: .5em;
     margin-bottom: .5em;
@@ -189,6 +181,16 @@ figure {
     color: #000;
     text-decoration: none;
     font-style: normal;
+    text-align: center;
+}
+
+/*Tarjetas*/
+
+
+
+figure {
+    margin: 0;
+    position: relative;
     text-align: center;
 }
 
@@ -203,6 +205,28 @@ figure {
     width: 100%;
     height: auto;
     border-radius: 1em;
+}
+
+/*Ofertas*/
+.ofertas h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000;
+}
+
+.ofertas h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.5em;
 }
 
 
@@ -252,4 +276,22 @@ header nav {
 
 .destacados :first-child {
     width: 100%;
+}
+
+.ofertas {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.ofertas :first-child {
+    width: 80%;
+    float: left;
+}
+
+.ofertas :last-child {
+    width: 20%;
+    float: right;
 }
