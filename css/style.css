@@ -161,7 +161,7 @@ header nav .iconos {
     color: #FFF;
 }
 
-.destacados .tarjeta-content a {
+.tarjeta-content a {
     color:#000;
     text-decoration: none;
     padding: .5em 1em;
@@ -208,16 +208,9 @@ figure {
 }
 
 /*Ofertas*/
-.ofertas h2 {
-    text-align: center;
-    text-decoration: underline;
-    font-style: italic;
-    font-size: 2em;
-    font-weight: 500;
-    color: #000;
-}
 
-.ofertas h3 {
+.ofertas p {
+    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -229,6 +222,26 @@ figure {
     font-size: 2.5em;
 }
 
+.ofertas a {
+    color:#000;
+    text-decoration: none;
+    padding: .2em .5em;
+    background-color: #FFF;
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 50%;
+    width: 90%;
+}
+
+.tarjeta2 {
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.ofertas .tarjeta2 .imagen {
+    height: 100%;
+}
 
 
 /*acá empieza flexbox*/
@@ -286,12 +299,13 @@ header nav {
     box-sizing: border-box;
 }
 
-.ofertas :first-child {
-    width: 80%;
-    float: left;
+.ofertas .tarjeta {
+    width: 65%;
+    min-width: 354px;
 }
 
-.ofertas :last-child {
-    width: 20%;
-    float: right;
+.ofertas .tarjeta2 {
+    width: 27%;
+    height: 100%;
+    min-width: 302px;
 }
