@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  }
+
+
+.centrado {
+    padding: 2px;
+    width: 1180px;
+    height: 120px;
+   
+}
+.menu_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(245, 251, 251);
+  
+}
+
+.logo {
+  background-image: none;
+}
+
+.logo-principal {
+  max-width: 12rem;
+}
+
+.menu-nav-urban {
+  display: block;
+  font-size: 30px;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.nav-list li a:hover {
+  background-color: #758285;
+  color: rgb(47, 47, 132);  
+
+}
+
+.iconos_header {
+  padding: 2rem;
+  
+}
+
+
+.abrir-menu {
+  display: none;
+}
+.cerrar-menu {
+  display: none;
+}
+
+/* inicio media del header dispositivo Tablet*/
+
+@media all and (min-width: 600px) and (max-width: 960px) {
+
+  .centrado {
+      width: 955px;
+      height: 140px;
+     
+  }
+
+  .logo {
+    order: 2;
+   }
+   
+   .logo-principal {
+      max-width: 10rem;
+    }
+  
+   .abrir {
+    order: 1;
+   }
+  
+   .iconos_header {
+    order: 3;
+   }
+  
+   .icono_favorito {
+    display: none;
+   }
+  
+   .icono_buscar {
+    translate: -540px;
+   }
+  
+   .icono_buscar.ocultar {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+   .menu_header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: rgb(241, 246, 246);
+  }
+  
+  .abrir-menu {
+    display: block;
+  }
+  .cerrar-menu {
+    display: block;
+  }
+  .abrir {
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  
+  .menu-nav-urban {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .menu-nav-urban {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #312d2d;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    bottom: 0;
+  }
+  
+  .menu-nav-urban.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+    /*background-color: rgb(57, 60, 65);*/
+  }
+  .nav-list a {
+    color: #ecececec
+    
+  }
+  .iconos_header {
+    display: flex;
+    /*right: 0;
+    background-position: right;*/
+  }
+  
+  
+
+} 
+
+/*fin de dispositivo de tablet - Header*/
+
+
+
+/* Inicio Media Querry de Header mobile*/
+
+@media screen and (max-width: 590px) {
+
+  .centrado {
+    width: 585px;
+    height: 140px;
+    
+  }
+
+.logo {
+  order: 2;
+ }
+ 
+ .logo-principal {
+    max-width: 9rem;
+  }
+
+ .abrir {
+  order: 1;
+ }
+
+ .iconos_header {
+  order: 3;
+ }
+
+ .icono_favorito {
+  display: none;
+ }
+
+ .icono_buscar {
+  translate: -330px;
+ }
+
+ .icono_buscar.ocultar {
+  opacity: 0;
+  visibility: hidden;
+}
+
+ .menu_header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: rgb(209, 223, 223);
+}
+
+.abrir-menu {
+  display: block;
+}
+.cerrar-menu {
+  display: block;
+}
+.abrir {
+display: flex;
+justify-content: space-between;
+}
+
+
+.menu-nav-urban {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu-nav-urban {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #312d2d;
+  padding: 2rem;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  bottom: 0;
+}
+
+.menu-nav-urban.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-list {
+  flex-direction: column;
+  align-items: end;
+  /*background-color: rgb(57, 60, 65);*/
+}
+.nav-list a {
+  color: #ecececec
+  
+}
+.iconos_header {
+  display: flex;
+  /*right: 0;
+  background-position: right;*/
+}
+
+}
+
