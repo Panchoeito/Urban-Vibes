@@ -86,10 +86,12 @@ header nav .iconos {
 
 #banner_inicial {
     background-image: url(/img/dave-smith-epNphljdF84-unsplash.jpg);
+    background-color: #00000056;
     background-size: cover;
     width: 100%;
     height: 500px;
     text-align: center;
+    background-blend-mode: color;
 }
 
 #banner_inicial #texto_banner {
@@ -243,6 +245,9 @@ figure {
     height: 100%;
 }
 
+/*Nuevos Productos*/
+
+
 
 /*acá empieza flexbox*/
 
@@ -308,4 +313,14 @@ header nav {
     width: 27%;
     height: 100%;
     min-width: 302px;
+}
+
+.nuevos_productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nuevos_productos :first-child {
+    width: 100%;
 }
