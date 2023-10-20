@@ -10,7 +10,7 @@
     padding: 2px;
     width: 1180px;
     height: 120px;
-   
+    margin: auto;
 }
 .menu_header {
   display: flex;
