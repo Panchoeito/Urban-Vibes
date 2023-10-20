@@ -247,7 +247,54 @@ figure {
 
 /*Nuevos Productos*/
 
+.nuevos_productos h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000;
+}
 
+.nuevos_productos .imagen {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.nuevos_productos .tarjeta-content {
+    background-color: #000;
+    margin-top: 0;
+    padding: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.nuevos_productos .tarjeta-content a {
+
+    text-decoration: none;
+    padding: .5em 1em;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 1em;
+    display: block;
+}
+
+.nuevos_productos .tarjeta-content h3 {
+    margin-top: .2em;
+    margin-bottom: .2em;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #FFF;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+}
 
 /*acá empieza flexbox*/
 
