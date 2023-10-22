@@ -153,9 +153,6 @@ body {
       /*right: 0;
       background-position: right;*/
     }
-    
-    
-  
   } 
   
   /*fin de dispositivo de tablet - Header*/
@@ -164,7 +161,7 @@ body {
   
   /* Inicio Media Querry de Header mobile*/
   
-  @media screen and (max-width: 959px) {
+  @media screen and (max-width: 954px) {
   
     .centrado {
       width: 585px;
@@ -260,6 +257,9 @@ header nav .iconos {
     padding: 0 10px;
 }
 */
+
+/*INDEX*/
+
 /*banner*/
 
 #banner_inicial {
@@ -272,7 +272,7 @@ header nav .iconos {
     background-blend-mode: color;
 }
 
-#banner_inicial #texto_banner {
+.texto_banner {
     padding-top: 300px;
     padding-bottom: 30px;
     color: #FFF;
@@ -591,4 +591,18 @@ header nav {
     justify-content: center;
     gap: 10px;
     margin: 20px
+}
+
+/* CATÁLOGO*/
+
+/* Banner Inicial*/
+
+#banner_inicial_catalogo {
+    background-image: url(/img/banner_\ catalogo.png);
+    background-color: #00000056;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-blend-mode: color;
 }
