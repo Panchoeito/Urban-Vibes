@@ -258,7 +258,7 @@ header nav .iconos {
 }
 */
 
-/*INDEX*/
+/* PÁGINA:INDEX*/
 
 /*banner*/
 
@@ -300,10 +300,8 @@ header nav .iconos {
     color: #000;
 }
 
-
-
-
 /*Categorías*/
+
 .categorias h2 {
     text-align: center;
     text-decoration: underline;
@@ -365,8 +363,6 @@ header nav .iconos {
 }
 
 /*Tarjetas*/
-
-
 
 figure {
     margin: 0;
@@ -507,6 +503,95 @@ footer{
     color: #e9e1e1;
     margin-bottom: 0%;
     padding-bottom: 15px;
+}
+
+/*PÁGINA: CATÁLOGO */
+
+.catalogo {
+    display: inline-block;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.filter {
+    min-width: 180px;
+    grid-row: 1 / -1;
+    background-color: #EEE;
+    padding: 10px;
+}
+
+.grid div {
+    background-color: #758285;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.grid .tarjeta {
+    width: 90%;
+    margin: 0;
+}
+
+/*PAGINA: EMPRESA */
+
+.migadeapan{
+    width: 100%;
+    background-color: rgba(238, 238, 238, 1);
+    margin-top: -1em;
+}
+.migadeapan p {
+    padding: 6px 0px 6px 30px;
+    font-size: small;
+}
+
+.tituloempresa {
+    font-weight: 900; 
+    font-style: italic; 
+}
+
+.imagenempresa {
+    width: 24em; 
+    margin: 20px 40px 30px 0px;
+}
+
+.empresatexto {
+    width: 39em;
+    margin-right: 40px;
+}
+
+/*PAGINA: DETALLE */
+
+.rectangulobtn {
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 7px 7px 7px 10px;
+    border: black 2px solid;
+    margin: 5px;
+    
+}  
+.botoncarrito {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}    
+.btncompra{
+    background-color: black;
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px 14px 8px 14px;
+    border: black 2px solid;
+    margin: 5px;
+} 
+
+.detalleproducto p{
+    font-size: 0.8em;
 }
 
 /*acá empieza flexbox*/
