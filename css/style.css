@@ -511,6 +511,18 @@ footer{
     display: inline-block;
 }
 
+/* Banner Inicial*/
+
+#banner_inicial_catalogo {
+    background-image: url(/img/banner_\ catalogo.png);
+    background-color: #00000056;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-blend-mode: color;
+}
+
 .grid {
     width: 100%;
     display: grid;
@@ -522,11 +534,13 @@ footer{
     min-width: 180px;
     grid-row: 1 / -1;
     background-color: #EEE;
+    border-radius: 2em;
+    height: fit-content;
     padding: 10px;
 }
 
 .grid div {
-    background-color: #758285;
+
     padding: 20px;
     max-width: 500px;
 }
@@ -680,14 +694,3 @@ header nav {
 
 /* CATÁLOGO*/
 
-/* Banner Inicial*/
-
-#banner_inicial_catalogo {
-    background-image: url(/img/banner_\ catalogo.png);
-    background-color: #00000056;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-    text-align: center;
-    background-blend-mode: color;
-}
