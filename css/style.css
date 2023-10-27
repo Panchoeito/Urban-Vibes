@@ -511,8 +511,6 @@ footer{
     display: inline-block;
 }
 
-/* Banner Inicial*/
-
 #banner_inicial_catalogo {
     background-image: url(/img/banner_\ catalogo.png);
     background-color: #00000056;
@@ -537,6 +535,18 @@ footer{
     border-radius: 2em;
     height: fit-content;
     padding: 10px;
+    font-size: small;
+    margin-top: 36px;
+}
+
+.filter form {
+    font-style: italic;
+}
+
+.filter li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .grid div {
@@ -550,6 +560,11 @@ footer{
     margin: 0;
 }
 
+.grid img {
+    max-height: 500px;
+
+}
+
 /*PAGINA: EMPRESA */
 
 .migadeapan{
@@ -560,6 +575,11 @@ footer{
 .migadeapan p {
     padding: 6px 0px 6px 30px;
     font-size: small;
+}
+
+.migadeapan a {
+    text-decoration: none;
+    color: #000;
 }
 
 .tituloempresa {

@@ -50,47 +50,76 @@
         <h2 class="texto_banner">CATÁLOGO</h2>
     </aside>
     <div class="migadeapan">
-        <p>INICIO / CATALOGO</p>
+        <p><a href="/index.html">INICIO</a> / CATALOGO</p>
     </div>
     <section class="catalogo">
 
         <div class="grid">
             <div class="filter">
-                <p>FILTRAR POR:</p>
-                <br>
-                <p>CATEGORÍAS</p>
-                <ul>
-                    <li class="rectangulobtn">TODO</li>
-                    <li>BUZOS</li>
-                    <li>REMERAS</li>
-                    <li>PANTALONES</li>
-                </ul>
-                <p>TALLES</p>
-                <ul>
-                    <li>XS</li>
-                    <li>S</li>
-                    <li>M</li>
-                    <li>L</li>
-                    <li>XL</li>
-                </ul>
-                <p>PRECIO</p>
-                <ul>
-                    <li>TODOS LOS PRECIOS</li>
-                    <li>$9.000-$15.000</li>
-                    <li>$15.000-$20.000</li>
-                    <li>$20.000-$25.000</li>
-                    <li>$25.000-$30.000</li>
-                </ul>
+                <form>
+                    <p>FILTRAR POR:</p>
+                    <label for="categoria">CATEGORÍAS</label>
+                        <ul>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="all">TODO</li>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="buzo">BUZOS</li>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="remera">REMERAS</li>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="pantalon">PANTALONES</li>
+                        </ul>
+                    <label for="talle">TALLES</label>
+                    <ul>
+                        <li><input type="checkbox" name="talle" id="talle" value="xs">XS</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="s">S</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="m">M</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="l">L</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="xl">XL</li>
+                    </ul>
+                    <label for="precio">PRECIO</label>
+                    <ul>
+                        <li><input type="checkbox" name="precio" id="precio" value="all">TODOS</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="2">$9.000-$15.000</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="3">$15.000-$20.000</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="4">$20.000-$25.000</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="5">$20.000-$25.000</li>
+                    </ul>    
+                </form>
             </div>
             <div class="nuevos_productos">
                 <article class="tarjeta">
                     <a href="/pages/detalle.html">
                         <figure>
-                            <img class="imagen" src="/img/buzos_nuevos.png" alt="Buzos nuevos">
+                            <img class="imagen" src="/img/remeras_nuevas.png" alt="Remera estampada">
                         </figure>
                     </a>
                     <div class="tarjeta-content">
-                        <h3>BUZOS OVERSIZE</h3>
+                        <h3>REMERA ESTAMPADA</h3>
+                        <h3>$9.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/pantalones.png" alt="Pantalones">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>PANTALÓN MASCULINO</h3>
+                        <h3>$14.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/Destacados2.png" alt="Remera custom">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>REMERA CUSTOM</h3>
                         <h3>$15.000</h3>
                         <a href="/pages/detalle.html">COMPRAR</a>
                     </div>
@@ -100,12 +129,12 @@
                 <article class="tarjeta">
                     <a href="/pages/detalle.html">
                         <figure>
-                            <img class="imagen" src="/img/buzos_nuevos.png" alt="Buzos nuevos">
+                            <img class="imagen" src="/img/accesorios_nuevos.png" alt="Sombrero Piluso">
                         </figure>
                     </a>
                     <div class="tarjeta-content">
-                        <h3>BUZOS OVERSIZE</h3>
-                        <h3>$15.000</h3>
+                        <h3>SOMBRERO PILUSO</h3>
+                        <h3>$7.000</h3>
                         <a href="/pages/detalle.html">COMPRAR</a>
                     </div>
                 </article>
@@ -114,40 +143,12 @@
                 <article class="tarjeta">
                     <a href="/pages/detalle.html">
                         <figure>
-                            <img class="imagen" src="/img/buzos_nuevos.png" alt="Buzos nuevos">
+                            <img class="imagen" src="/img/Destacados3.png" alt="Pantalón Femenino">
                         </figure>
                     </a>
                     <div class="tarjeta-content">
-                        <h3>BUZOS OVERSIZE</h3>
-                        <h3>$15.000</h3>
-                        <a href="/pages/detalle.html">COMPRAR</a>
-                    </div>
-                </article>
-            </div>
-            <div class="nuevos_productos">
-                <article class="tarjeta">
-                    <a href="/pages/detalle.html">
-                        <figure>
-                            <img class="imagen" src="/img/buzos_nuevos.png" alt="Buzos nuevos">
-                        </figure>
-                    </a>
-                    <div class="tarjeta-content">
-                        <h3>BUZOS OVERSIZE</h3>
-                        <h3>$15.000</h3>
-                        <a href="/pages/detalle.html">COMPRAR</a>
-                    </div>
-                </article>
-            </div>
-            <div class="nuevos_productos">
-                <article class="tarjeta">
-                    <a href="/pages/detalle.html">
-                        <figure>
-                            <img class="imagen" src="/img/buzos_nuevos.png" alt="Buzos nuevos">
-                        </figure>
-                    </a>
-                    <div class="tarjeta-content">
-                        <h3>BUZOS OVERSIZE</h3>
-                        <h3>$15.000</h3>
+                        <h3>PANTALÓN FEMENINO</h3>
+                        <h3>$14.000</h3>
                         <a href="/pages/detalle.html">COMPRAR</a>
                     </div>
                 </article>
