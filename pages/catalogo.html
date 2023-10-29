@@ -1,11 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catálogo</title>
+    <link rel="shortcut icon" href="/img/ico/Logo Favicon Urban VIBES.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
 </head>
+
 <body>
+
+    <Div class="centrado"> 
+
+        <header class="menu_header">
+            
+            
+            <div>
+                <img class="logo-principal" src="../img/1 logo principal URBAN VIVES.png" alt="Imagen logo de la Empresa"> 
+            </div>
+            
+            <Div class="abrir">
+                <button class="abrir-menu abrir"><img src="../img/ico/menu hamburguesa.png" ></button>
+            </Div>
+            <nav class="menu-nav-urban navisible">
+                <button class="cerrar-menu cerrar"><img src="../img/ico/Cancelar_ocultar_menu.png" alt="cerrar"></button>
+                <ul class="nav-list">
+                    <li><a href="../index.html">Inicio</a></li> 
+                    <li><a href="../pages/catalogo.html">Catálogo</a></li>
+                    <li><a href="../pages/empresa.html">Empresa</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li> 
+                </ul>   
+            </nav>
     
+            <Div class="iconos_header">
+                <img class="icono_favorito" src="../img/ico/favorite.png" alt="favorito"> 
+                <img class="icono_compra" src="../img/ico/Local_mall.png" alt="compra">
+                <img class="icono_buscar" src="../img/ico/search.png" alt="buscar">
+                <img class="icono_cuenta" src="../img/ico/account_circle.png" alt="cuenta">
+    
+            </Div>
+    
+        </header>
+    
+    </Div>
+    <aside id="banner_inicial_catalogo">
+        <h2 class="texto_banner">CATÁLOGO</h2>
+    </aside>
+    <div class="migadeapan">
+        <p><a href="/index.html">INICIO</a> / CATALOGO</p>
+    </div>
+    <section class="catalogo">
+
+        <div class="grid">
+            <div class="filter">
+                <form>
+                    <p>FILTRAR POR:</p>
+                    <label for="categoria">CATEGORÍAS</label>
+                        <ul>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="all">TODO</li>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="buzo">BUZOS</li>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="remera">REMERAS</li>
+                            <li><input type="checkbox" name="categoria" id="categoria" value="pantalon">PANTALONES</li>
+                        </ul>
+                    <label for="talle">TALLES</label>
+                    <ul>
+                        <li><input type="checkbox" name="talle" id="talle" value="xs">XS</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="s">S</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="m">M</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="l">L</li>
+                        <li><input type="checkbox" name="talle" id="talle" value="xl">XL</li>
+                    </ul>
+                    <label for="precio">PRECIO</label>
+                    <ul>
+                        <li><input type="checkbox" name="precio" id="precio" value="all">TODOS</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="2">$9.000-$15.000</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="3">$15.000-$20.000</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="4">$20.000-$25.000</li>
+                        <li><input type="checkbox" name="precio" id="precio" value="5">$20.000-$25.000</li>
+                    </ul>    
+                </form>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/remeras_nuevas.png" alt="Remera estampada">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>REMERA ESTAMPADA</h3>
+                        <h3>$9.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/pantalones.png" alt="Pantalones">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>PANTALÓN MASCULINO</h3>
+                        <h3>$14.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/Destacados2.png" alt="Remera custom">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>REMERA CUSTOM</h3>
+                        <h3>$15.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/accesorios_nuevos.png" alt="Sombrero Piluso">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>SOMBRERO PILUSO</h3>
+                        <h3>$7.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/Destacados3.png" alt="Pantalón Femenino">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>PANTALÓN FEMENINO</h3>
+                        <h3>$14.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+            <div class="nuevos_productos">
+                <article class="tarjeta">
+                    <a href="/pages/detalle.html">
+                        <figure>
+                            <img class="imagen" src="/img/buzos_nuevos.png" alt="Buzos nuevos">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>BUZOS OVERSIZE</h3>
+                        <h3>$15.000</h3>
+                        <a href="/pages/detalle.html">COMPRAR</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footer_marca">URBAN VIBES</p>
+        <p class="footer_texto">
+            URBAN VIBES es tu destino para la moda oversize unisex que combina comodidad y estilo urbano. Explora nuestra colección de prendas modernas y relajadas, desde camisetas extragrandes hasta sudaderas holgadas. Nuestra marca celebra la individualidad y la tendencia del 'streetwear', ofreciendo una experiencia de compra en línea única para quienes buscan destacar con actitud en la ciudad.
+        </p>
+        <ul class="lista">
+            <li class="lista_items"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li class="lista_items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="lista_items"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="lista_items"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+        <ul class="lista info">
+            <li class="lista_items"><a href="#">Empresa</a></li>
+            <li class="lista_items"><a href="#">Privacidad & Cookies</a></li>
+            <li class="lista_items"><a href="#">Términos y Condiciones</a></li>
+            <li class="lista_items"><a href="#">Envíos y Devoluciones</a></li>
+        </ul>
+        <p class="copyright">
+            © 2021 URBANVIBES | TODOS LOS DERECHOS RESERVADOS
+        </p>
+    </footer>
+
+    <script src="../js/main.js"></script>
 </body>
+
 </html>
