@@ -22,3 +22,15 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
         icono_buscar.classList.remove("ocultar");
 })
+
+// ocultar formulario cuando se activa el menu en mobile
+const formocultar = document.querySelector(".formocultar");
+
+
+abrir.addEventListener("click", () => {
+    formocultar.classList.add("ocultar2");
+})
+
+cerrar.addEventListener("click", () => {
+        formocultar.remove("ocultar2");
+})

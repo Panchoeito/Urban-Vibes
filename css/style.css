@@ -822,7 +822,6 @@ textarea {
     .nav-list {
         flex-direction: column;
         align-items: end;
-
     }
 
     .nav-list a {
@@ -831,7 +830,11 @@ textarea {
 
     .iconos_header {
         display: flex;
+    }
 
+    .formocultar.ocultar2 {
+        opacity: 0;
+        visibility: hidden;
     }
 
 }
