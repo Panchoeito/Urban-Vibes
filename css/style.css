@@ -82,7 +82,7 @@ body {
     color: #1c1c1c;
 }
 
-nav-list li a:hover {
+.nav-list li a:hover {
     background-color: #758285;
     color: rgb(47, 47, 132);
 }
