@@ -30,7 +30,3 @@ const formocultar = document.querySelector(".formocultar");
 abrir.addEventListener("click", () => {
     formocultar.classList.add("ocultar2");
 })
-
-cerrar.addEventListener("click", () => {
-        formocultar.remove("ocultar2");
-})
