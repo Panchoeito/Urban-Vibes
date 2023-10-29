@@ -10,7 +10,6 @@ body {
 }
 
 #titulo_empresa {
-    background-color: #eae3e3;
     margin: 0 auto;
     padding: 0 0.8em;
 }
@@ -19,9 +18,11 @@ body {
     color: #4523cd;
     text-align: center;
     font-size: xx-large;
-    font-family: cursive;
     animation-duration: 4s;
     animation-name: slidein;
+    font-weight: 300;
+    color: #000000;
+    font-style: italic;
 
 }
 
